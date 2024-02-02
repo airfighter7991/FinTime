@@ -1,0 +1,44 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 100px;
+    cursor: default;
+}
+
+a{
+    cursor: default;
+}
+
+
+p::selection{
+    background-color: #16DB65;
+    color: #020202;
+}
+
+.logo{
+    color: #020202;
+    font-size: 54px;
+    position: relative;
+    bottom: 60px;
+    width: 450px;
+    float: left;
+    overflow: hidden;
+}
+a{
+    color: #020202;
+    text-decoration: none;
+    transition-duration: 300ms;
+}
+a:hover{
+    color: #16DB65;
+}
+
+.navigation{
+    text-align: end;
+}
+
+
+.navigation li{
+    display: inline;
+    margin-right: 20px;
+    overflow: hidden;
+}
